@@ -58,7 +58,7 @@ class CountryCapital:
             print("Список користувачів порожній.")
         else:
             for country, capital in self.data.items():
-                print(f"Користувач: {country}, Пароль: {capital}")
+                print(f"Країна: {country}, Столиця: {capital}")
 
 
 def main_menu():
